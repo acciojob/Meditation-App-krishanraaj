@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+/* styles.css */
+#app {
+    max-width: 400px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.vid-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.player-container {
+    display: none; /* Hide audio UI, only sound */
+}
+
+.sound-picker, #time-select {
+    margin: 15px 0;
+}
+
+.sound-picker button, #time-select button, .play {
+    margin: 0 5px;
+    padding: 8px 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #74b9ff;
+    color: white;
+    font-weight: bold;
+}
+
+.sound-picker button.active {
+    background: #0984e3;
+}
+
+.time-display {
+    font-size: 2em;
+    margin: 10px 0;
+}
